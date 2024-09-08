@@ -54,6 +54,9 @@ function App() {
                         
                         <h1 className="text-xl font-bold dark:text-slate-100">Ivan Kolesnicenko</h1>
                         <p className="text-gray-700 dark:text-slate-400">Trainee Front-End Developer</p>
+                        <p className="text-gray-700 dark:text-slate-400">Brovary</p>
+                        <p className="text-gray-700 dark:text-slate-400">kapolizei194@gmail.com </p>
+                        <p className="text-gray-700 dark:text-slate-400">06.12.2004</p>
                         <div className="mt-6 flex flex-wrap gap-4 justify-center">
                             <a href="tel:+380968813949" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Contact</a>
                             <GeneratePdfButton/>
@@ -63,25 +66,38 @@ function App() {
                     <div className="flex flex-col">
                         <span className="text-gray-700 uppercase font-bold tracking-wider mb-2 dark:text-slate-100">Skills</span>
                         <ul>
-                            <li className="mb-2 dark:text-slate-400">JavaScript</li>
-                            <li className="mb-2 dark:text-slate-400">React</li>
-                            <li className="mb-2 dark:text-slate-400">HTML/CSS</li>
-                            <li className="mb-2 dark:text-slate-400">Tailwind Css</li>
+                            <li className="mb-2 dark:text-slate-400">English - B2</li>
+                            <li className="mb-2 dark:text-slate-400">JavaScript, ReactJS</li>
+                            <li className="mb-2 dark:text-slate-400">Git, GitHub</li>
+                            <li className="mb-2 dark:text-slate-400">HTML/CSS, Tailwind, Bootstrap </li>
+                            <li className="mb-2 dark:text-slate-400">Debug with Chrome DevTools</li>
+                           
                         </ul>
                     </div>
                 </div>
             </div>
             <div className="col-span-4 sm:col-span-9">
                 <div className="bg-white shadow rounded-lg p-6 dark:bg-slate-800">
-                    <h2 className="text-xl font-bold mb-4 dark:text-slate-100">About Me</h2>
-                    <p className="text-gray-700 dark:text-slate-400">
-                    </p>
 
+                
+
+
+
+
+                    <h2 className="text-xl font-bold mb-4 dark:text-slate-100">About Me</h2>
+                    <p className="text-gray-700 dark:text-slate-400">                    I am a passionate front-end developer with a good foundation in web development. My journey began with learning HTML and building websites, which provided me with an understanding of web design principles. About a year ago, I dived into JavaScript to create dynamic and interactive web pages. In the past four months, I have focused on mastering React to develop modern, responsive, and scalable web applications. I am eager to continue growing and applying my knowledge to create user-friendly and efficient web interfaces.
+                    </p>
+                    
                     <br/>
 
                     <h2 className="text-xl font-bold mb-4 dark:text-slate-100">Why do I want to work in Taton?</h2>
                     <p className="text-gray-700 dark:text-slate-400">I chose your vacancy because I noticed that the requirements for a Trainee position are realistic and reasonable. Many job postings have inflated requirements and unrealistic expectations. I am eager to gain more practical experience in programming, especially with React and JavaScript, and your position offers an excellent opportunity for that.
                     </p>
+
+                    <h2 className="text-xl font-bold mt-6 mb-4 dark:text-slate-100">Why your time spent on me will have sense?</h2>
+                    <p className="text-gray-700 dark:text-slate-400">I quickly adapt to new technologies, handle complex tasks effectively, and have a solid background in related fields. My strong motivation and commitment to growth in web development will enable me to become a valuable team member over time.
+                    </p>
+                  
 
 
                     <h2 className="text-xl font-bold mt-6 mb-4 dark:text-slate-100">Education</h2>
@@ -109,6 +125,11 @@ function App() {
                           
                         </p>
                     </div>
+
+
+
+                    
+                    
                     
                 </div>
             </div>
