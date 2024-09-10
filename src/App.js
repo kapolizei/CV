@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import './App.css';
 import GeneratePdfButton from "./components/GeneratePdfButton";
-
+import LogRocket from 'logrocket';
+LogRocket.init('2gfoz0/ivanlucentservices');
 function App() {
   
     const [isDarkMode, setIsDarkMode] = useState(false);
