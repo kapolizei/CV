@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-    <div className= { `${isDarkMode && 'dark' } dark:bg-slate-900 h-screen`}>
+    <div id='content-to-print' className= { `${isDarkMode && 'dark' } dark:bg-slate-900 h-screen`}>
 
     <div className="sticky top-0 z-40 w-full backdrop-blur flex-none duration-500 lg:z-50 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] supports-backdrop-blur:bg-white/60 dark:bg-transparent">
   <div className="max-w-8xl mx-auto">

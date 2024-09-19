@@ -5,18 +5,18 @@ import jsPDF from "jspdf";
 const GeneratePdfButton = () => {
     
     const generatePDF = () => {
-        const element = document.body; // Выбираем элемент страницы для захвата (в данном случае - все тело документа)
+        const element = document.getElementById("content-to-print");
     
         html2canvas(element).then((canvas) => {
           const imgData = canvas.toDataURL("image/png");
           const pdf = new jsPDF("p", "mm", "a4");
     
           // Добавление изображения в PDF
-          const imgWidth = 210; // Ширина страницы PDF в миллиметрах
+          const imgWidth = 210;
           const pageHeight = pdf.internal.pageSize.height;
           const imgHeight = (canvas.height * imgWidth) / canvas.width;
           let heightLeft = imgHeight;
-    
+
           let position = 0;
     
           pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
@@ -29,7 +29,7 @@ const GeneratePdfButton = () => {
             heightLeft -= pageHeight;
           }
     
-          pdf.save("resume.pdf"); // Сохранение PDF-файла
+          pdf.save("resume.pdf");
         });
       };
 
