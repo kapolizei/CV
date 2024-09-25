@@ -1,3 +1,7 @@
-### `npm start`
+# Задачи
+
 * [ ] Разбить апп на компоненты.
-  * [ ] Add Redux. 
+* [ ] Add Redux. 
+  
+# Changelog
+* [X] Добавить тестовые роуты/Redux Route
