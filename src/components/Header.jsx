@@ -17,9 +17,7 @@ export default function Header({isDarkMode, setIsDarkMode}) {
                         className="py-4 border-b border-slate-900/10 lg:px-8 lg:border-0 dark:border-slate-300/10 mx-4 lg:mx-0">
                         <div className="relative flex items-center">
                             <div className="relative lg:flex items-center ml-auto">
-                                <div
-                                    className="flex items-center border-l border-slate-200 ml-6 pl-6 dark:border-slate-800">
-
+                                <div className="flex items-center border-l border-slate-200 ml-6 pl-6 dark:border-slate-800">
                                     <button onClick={handleClick} type="button" id="headlessui-listbox-button-:R2lkcr6:"
                                             aria-haspopup="listbox" aria-expanded="true"
                                             data-headlessui-state="open active"
