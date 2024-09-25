@@ -2,8 +2,10 @@ import React, {useState} from 'react';
 import './App.css';
 import GeneratePdfButton from "./components/GeneratePdfButton";
 import LogRocket from 'logrocket';
-import {hover} from "@testing-library/user-event/dist/hover";
 import HoverAgeComponent from "./components/HoverAgeComponent";
+import AppRoutes from './routing/AppRoutes.jsx';
+
+
 
 LogRocket.init('2gfoz0/ivanlucentservices');
 function App() {
@@ -19,7 +21,7 @@ function App() {
 
 
 
-
+    return <AppRoutes/>
 
 
 
