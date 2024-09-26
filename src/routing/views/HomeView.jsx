@@ -1,18 +1,20 @@
+import React from "react";
+import {useSelector} from "react-redux";
 
 import Header from "../../components/Header";
 import Info from "../../components/Info";
 import Skills from "../../components/Skills";
 import AboutMe from "../../components/AboutMe";
-import React, {useState} from "react";
+
 
 export default function HomeView (){
 
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const isDarkMode = useSelector((state) => state.appSlice.isDarkMode);
 
     return (
         <>
             <div id='content-to-print' className={`${isDarkMode && 'dark'} dark:bg-slate-900 h-screen`}>
-                <Header isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
+                <Header/>
                 <div className={`container mx-auto py-8 dark:bg-slate-900 ${isDarkMode && 'dark'}`}>
                     <div className="grid grid-cols-4 sm:grid-cols-12 gap-6 px-4 ">
                         <div className="col-span-4 sm:col-span-3 ">

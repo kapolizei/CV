@@ -1,12 +1,19 @@
 import React from "react";
+import {useDispatch, useSelector} from "react-redux";
 
-export default function Header({isDarkMode, setIsDarkMode}) {
+import {setDarkMode} from "../app/appSlice";
+export default function Header() {
+
+    const dispatch = useDispatch();
+    const isDarkMode = useSelector((state) => state.appSlice.isDarkMode);
 
     const handleClick = (event) => {
-        setIsDarkMode(!isDarkMode)
+        dispatch(setDarkMode(!isDarkMode))
         event.preventDefault();
         event.stopPropagation();
     }
+
+    console.log(isDarkMode);
 
     return (
         <>
