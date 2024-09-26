@@ -1,5 +1,6 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
 export default function SkillTree() {
     return (
         <>
@@ -42,7 +43,7 @@ export default function SkillTree() {
                             <li>React Props</li>
                             <li>Controlled Components</li>
                             <li>Uncontrolled Components</li>
-                            <a className='hover:text-blue-500' href='http://ivan.lucent.services/api'><li>FetchAPI</li></a>
+                            <li className='hover:text-blue-500'> <Link to="/api">FetchApi</Link></li>
 
                         </ul>
                         <span

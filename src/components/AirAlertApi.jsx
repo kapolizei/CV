@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import {Link} from "react-router-dom";
 
 export default function AirAlertApi() {
     const [state, setState] = useState({
@@ -48,9 +49,9 @@ export default function AirAlertApi() {
         <>
             <div className='flex justify-center items-center h-screen flex-col'>
                 <p>AirAlert Api Integration</p>
-                <a href='http://ivan.lucent.services'>
+                <Link to='/'>
                     <button className='bg-amber-300 m-2 p-2'>Home</button>
-                </a>
+                </Link>
                 <button onClick={handleClick} className='bg-amber-300 m-4 p-4'>Request</button>
 
                 {state.loading && <p>Загрузка...</p>}
