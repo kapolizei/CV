@@ -47,5 +47,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.10"
-  }
+  },
+  "proxy": "https://api.alerts.in.ua"
 }
