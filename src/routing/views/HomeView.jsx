@@ -13,7 +13,7 @@ export default function HomeView (){
 
     return (
         <>
-            <div id='content-to-print' className={`${isDarkMode && 'dark'} dark:bg-slate-900 h-screen`}>
+            <div id='content-to-print' className={`${isDarkMode && 'dark'} dark:bg-slate-900 h-fit`}>
                 <Header/>
                 <div className={`container mx-auto py-8 dark:bg-slate-900 ${isDarkMode && 'dark'}`}>
                     <div className="grid grid-cols-4 sm:grid-cols-12 gap-6 px-4 ">

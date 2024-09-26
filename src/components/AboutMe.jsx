@@ -1,5 +1,7 @@
 import React from "react";
 
+import SkillTree from "./SkillTree";
+
 export default function AboutMe() {
     return <>
         <h2 className="text-xl font-bold mb-4 dark:text-slate-100">About Me</h2>
@@ -77,5 +79,8 @@ export default function AboutMe() {
                 </p>
             </div>
         </div>
+
+        <SkillTree/>
+
     </>;
 }

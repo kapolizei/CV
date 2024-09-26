@@ -2,6 +2,7 @@ import React from "react";
 import {useDispatch, useSelector} from "react-redux";
 
 import {setDarkMode} from "../app/appSlice";
+
 export default function Header() {
 
     const dispatch = useDispatch();
@@ -12,8 +13,6 @@ export default function Header() {
         event.preventDefault();
         event.stopPropagation();
     }
-
-    console.log(isDarkMode);
 
     return (
         <>
