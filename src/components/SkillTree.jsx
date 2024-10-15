@@ -51,6 +51,20 @@ export default function SkillTree() {
                     </div>
 
 
+                    <div className="bg-white rounded-lg drop-shadow-2xl p-6 dark:bg-slate-800 justify-self-center lg:col-span-3">
+                        <h3 className="text-xl font-bold mb-2 dark:text-slate-100">PHP</h3>
+                        <ul className="list-disc pl-5 space-y-1 text-gray-500 dark:text-slate-100">
+                            <li>Variables, Data Types, Conditions</li>
+                            <li>GET and POST Methods</li>
+                            <li>Reading and Writing Files</li>
+                            <li>Handling Data in PHP</li>
+                            <li>MySQL Integration</li>
+                        </ul>
+                        <span
+                            className="bg-yellow-100 text-yellow-800 text-sm font-medium px-3 py-1 rounded-full mt-4 inline-block dark:text-gray-800">Foundational Level</span>
+                    </div>
+
+
                 </div>
             </div>
         </>

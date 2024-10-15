@@ -7,6 +7,7 @@ export default function Skills() {
         <ul>
             <li className="mb-2 dark:text-slate-400">English - B2</li>
             <li className="mb-2 dark:text-slate-400">JavaScript, ReactJS, Redux</li>
+            <li className="mb-2 dark:text-slate-400">PHP</li>
             <li className="mb-2 dark:text-slate-400">Git, GitHub</li>
             <li className="mb-2 dark:text-slate-400">HTML/CSS, Tailwind, Bootstrap</li>
             <li className="mb-2 dark:text-slate-400">Debug with Chrome DevTools</li>
